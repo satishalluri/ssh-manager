@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=SSH Manager
+GenericName=SSH connection manager
+Comment=Manage saved hosts and open SSH terminal tabs
+Exec=ssh-manager
+Icon=org.sshmanager.Desktop
+Terminal=false
+Categories=Network;RemoteAccess;
+Keywords=SSH;terminal;server;keyring;
+StartupNotify=true
+StartupWMClass=org.sshmanager.Desktop

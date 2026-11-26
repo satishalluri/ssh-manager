@@ -1,0 +1,15 @@
+.app-header windowcontrols button {
+    min-width: 32px;
+    min-height: 30px;
+    margin: 4px 2px;
+    padding: 0;
+    border: 1px solid #cbd7d1;
+    border-radius: 7px;
+    color: #263e34;
+    background: #eff4f1;
+    box-shadow: none;
+}
+.app-header windowcontrols button image { background: transparent; color: inherit; }
+.app-header windowcontrols button:hover { background: #dae7df; }
+.app-header windowcontrols button.close:hover { color: white; background: #ab413c; }
+.page-content { padding: 26px 30px; }

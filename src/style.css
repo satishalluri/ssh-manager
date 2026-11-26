@@ -1,0 +1,166 @@
+.app-header, .workspace, .sidebar {
+    font-family: "Inter", "Noto Sans", sans-serif;
+    font-size: 10pt;
+}
+.app-header {
+    background: #fcfdfc;
+    color: #1e3030;
+    border: 0;
+    border-bottom: 1px solid #d9e1df;
+    box-shadow: none;
+    padding: 3px 11px;
+}
+.app-header button.titlebutton {
+    min-width: 32px;
+    min-height: 30px;
+    padding: 0;
+    margin: 0 2px;
+    border: 1px solid #cbd7d1;
+    border-radius: 7px;
+    color: #263e34;
+    background: #eff4f1;
+    box-shadow: none;
+    text-shadow: none;
+}
+.app-header button.titlebutton image { color: inherit; -gtk-icon-shadow: none; }
+.app-header button.titlebutton:hover { background: #dae7df; }
+.app-header button.titlebutton:active { background: #c5d9cd; }
+.app-header button.titlebutton.close:hover { color: white; background: #ab413c; border-color: #ab413c; }
+.brand-title { font-size: 12pt; font-weight: 700; }
+.sidebar { background: #1d3034; color: #e0ebe9; }
+.side-controls { padding: 20px 15px 22px; }
+.host-search {
+    min-height: 32px;
+    background: #283d41;
+    color: #f3f8f7;
+    border: 1px solid #415458;
+    border-radius: 7px;
+    box-shadow: none;
+    padding: 0 9px;
+    caret-color: #b0e8ce;
+}
+.host-search image, .host-search placeholder { color: #bacac8; }
+.host-search:focus { border-color: #8ac6ab; }
+button.side-add {
+    background: #a9d9bd;
+    color: #183c30;
+    border: none;
+    box-shadow: none;
+    text-shadow: none;
+    border-radius: 7px;
+    min-height: 32px;
+    font-weight: 700;
+    padding: 1px 8px;
+}
+button.side-add:hover { background: #bee6cd; }
+.side-heading { padding: 0 17px 9px; }
+.side-caption { color: #b1c4c2; font-size: 9pt; font-weight: 700; }
+.side-count {
+    background: #304549;
+    color: #c1d2cf;
+    padding: 1px 8px;
+    border-radius: 8px;
+    font-size: 8.5pt;
+}
+.host-list { background: transparent; color: #ecf3f1; }
+.host-list row { border-radius: 6px; margin: 1px 9px; }
+.host-list row:hover { background: #293e42; }
+.host-list row:selected { background: #35574f; color: #f5fcf8; }
+.host-row { padding: 8px 9px; }
+.host-row image { color: #a6c6bb; }
+.host-name { font-weight: 600; }
+.host-address { color: #b6cac5; font-family: "IBM Plex Mono", monospace; font-size: 8.5pt; }
+.folder-heading { color: #adc5bc; padding: 11px 18px 5px; font-size: 9pt; }
+.side-empty { color: #a3b8b5; padding: 10px 18px; font-size: 9pt; }
+.side-footer {
+    border-top: 1px solid #384b4e;
+    color: #b7c9c6;
+    padding: 14px 17px;
+    font-size: 9pt;
+}
+.workspace, .tabs > stack, .tabs viewport { background: #f3f6f5; color: #20332e; }
+.tabs > header {
+    background: #fcfdfc;
+    border: 0;
+    border-bottom: 1px solid #d9e1de;
+    padding: 0 12px;
+}
+.tabs > header tab {
+    color: #65756f;
+    min-height: 36px;
+    padding: 0 10px;
+    margin: 0 3px;
+    border-width: 0;
+}
+.tabs > header tab:checked {
+    color: #205e4c;
+    box-shadow: inset 0 -2px #368264;
+}
+.page-content { padding: 26px 30px; }
+.page-icon { background: #deeee4; color: #326c52; padding: 11px; border-radius: 10px; }
+.page-title { color: #1e312a; font-size: 19pt; font-weight: 700; }
+.muted { color: #54665f; font-size: 9.5pt; }
+.card {
+    background: #ffffff;
+    border: 1px solid #d7e1dc;
+    border-radius: 11px;
+    padding: 17px 20px;
+    color: #23362e;
+}
+.card-title { font-size: 11.5pt; font-weight: 700; }
+.section-icon { color: #4c7564; }
+.field-label { color: #40564b; font-size: 9pt; font-weight: 600; }
+.host-input {
+    min-height: 32px;
+    padding: 0 9px;
+    border-radius: 6px;
+    border: 1px solid #c5d2ca;
+    background: #fcfdfc;
+    color: #1f3329;
+    caret-color: #276b4f;
+    box-shadow: none;
+}
+.host-input placeholder { color: #66786e; }
+.host-input:focus { border-color: #337955; box-shadow: 0 0 0 1px #337955; }
+.host-input selection, .host-search selection { background: #336d53; color: white; }
+.method-picker radio { -gtk-icon-source: none; }
+.method-picker > button {
+    background: #f4f7f5;
+    color: #4d6054;
+    border: 1px solid #cbd7ce;
+    min-height: 30px;
+    box-shadow: none;
+    text-shadow: none;
+    font-weight: 600;
+}
+.method-picker > button:first-child { border-radius: 6px 0 0 6px; }
+.method-picker > button:last-child { border-radius: 0 6px 6px 0; }
+.method-picker > button:hover { background: #eef4ee; }
+.method-picker > button:checked {
+    color: #1c553c;
+    background: #deeee2;
+    border-color: #8db69b;
+}
+button.primary, button.secondary, button.quiet, button.remove, button.tab-close {
+    background: none;
+    box-shadow: none;
+    text-shadow: none;
+    border-radius: 6px;
+    min-height: 30px;
+    padding: 2px 12px;
+    font-weight: 600;
+}
+button.primary { color: #fff; background: #286c50; border: 1px solid #286c50; }
+button.primary:hover { background: #1d593f; }
+button.secondary { color: #284b36; background: #fff; border: 1px solid #c6d3ca; }
+button.secondary:hover, button.quiet:hover, button.tab-close:hover { background: #e7efe9; }
+button.quiet, button.tab-close { color: #506258; border: 0; }
+button.tab-close { min-width: 16px; min-height: 18px; padding: 1px 2px; }
+button.remove { color: #983e3a; border: 1px solid #dcc9c5; background: #fff; }
+button.remove:hover { background: #f9eeeb; }
+.form-error { color: #a13631; }
+.notice { color: #503715; background: #fff1d5; padding: 5px 12px; }
+.session-bar { color: #2d433c; background: #f0f4f1; padding: 8px 12px; }
+.session-state { color: #496057; font-size: 9pt; }
+.mono { font-family: "IBM Plex Mono", monospace; }
+.terminal-pane { background: #152129; padding: 9px 0 9px 9px; }

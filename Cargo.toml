@@ -1,0 +1,20 @@
+[package]
+name = "ssh-manager"
+version = "2.0.0"
+edition = "2024"
+rust-version = "1.89"
+description = "Native Linux SSH host library and terminal manager"
+publish = false
+
+[dependencies]
+anyhow = "1"
+gtk = { package = "gtk4", version = "0.10", features = ["v4_6"] }
+libc = "0.2"
+libsecret = { version = "0.8", features = ["v0_19"] }
+rpassword = "7"
+rusqlite = "0.37"
+vte = { package = "vte4", version = "0.9" }
+zeroize = "1"
+
+[profile.release]
+strip = true

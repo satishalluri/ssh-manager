@@ -1,0 +1,12 @@
+Package: ssh-manager
+Version: @VERSION@
+Section: net
+Priority: optional
+Architecture: @ARCH@
+Maintainer: SSH Manager contributors <maintainers@ssh-manager.invalid>
+Depends: libc6 (>= @GLIBC@), libgcc-s1, libgtk-4-1 (>= 4.6), libvte-2.91-gtk4-0 (>= 0.65), libsecret-1-0 (>= 0.19), libsqlite3-0, libglib2.0-0t64 | libglib2.0-0 (>= 2.66), libpango-1.0-0, libgdk-pixbuf-2.0-0, libcairo2, openssh-client (>= 1:8.7p1)
+Recommends: gnome-keyring | org.freedesktop.secrets
+Description: Native Rust and GTK desktop manager for SSH connections
+ Organize Linux hosts in folders and open interactive OpenSSH sessions in
+ terminal tabs. Save passwords with the desktop Secret Service, select a
+ private key file, or use an existing SSH agent and OpenSSH configuration.
